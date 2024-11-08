@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/wordpress.css">
+    <link rel="stylesheet" href="./style/about-me.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>More About Me</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html#home" style="--i:1">Home</a>
+            <a href="index.html#about" style="--i:2">About</a>
+            <a href="index.html#services" style="--i:3">Services</a>
+            <a href="index.html#skills" style="--i:4">Skills</a>
+            <a href="index.html#projects" style="--i:5">Projects</a>
+            <a href="index.html#contact" style="--i:6">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <div class="cross" id="cross">&#10006;</div>
+    </header>
+
+    <section class="about-me-detail" id="about-me-detail">
+        <div class="container">
+            <h1 class="section-title">More About Me</h1>
+            <p class="section-description">
+                Hi! I'm Sami Ullah, a passionate web developer who specializes in WordPress and MERN stack development. I have a knack for creating fast, secure, and SEO-optimized websites that help businesses thrive online.
+            </p>
+            <div class="about-me-grid">
+                <div class="about-me-card">
+                    <h2 class="card-title">My Skills</h2>
+                    <p>Over the years, I have honed my skills in various areas of web development, including WordPress, SEO optimization, and custom theme development.</p>
+                </div>
+                <div class="about-me-card">
+                    <h2 class="card-title">My Experience</h2>
+                    <p>With more than 2 years of professional experience, I’ve delivered numerous successful projects, including e-commerce solutions, corporate websites, and more.</p>
+                </div>
+                <div class="about-me-card">
+                    <h2 class="card-title">My Journey</h2>
+                    <p>I began my journey as a web developer in Pakistan, and today, I work with clients from all over the world, helping them build websites that drive results.</p>
+                </div>
+            </div>
+            <h2 class="why-choose-me-title">Why Choose Me?</h2>
+            <ul class="why-choose-me-list">
+                <li>✔ Expert in MERN Stack</li>
+                <li>✔ Expert in WordPress and SEO</li>
+                <li>✔ Focused on delivering custom solutions</li>
+                <li>✔ Proven track record</li>
+                <li>✔ Client satisfaction is my top priority</li>
+            </ul>
+            <h2 class="client-testimonials-title">Client Testimonials</h2>
+            <div class="testimonial">
+                <p>"Sami Ullah helped us build a fast, SEO-optimized website that boosted our traffic and conversions!" - Happy Client</p>
+            </div>
+            <h2 class="call-to-action-title">Want to Know More?</h2>
+            <p>Feel free to reach out to learn more about my services and how I can help you achieve your goals.</p>
+            <div class="call-to-action">
+                <a href="index.html#contact" class="cta-button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>© <span id="year"></span> Sami Ullah. All Rights Reserved.</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

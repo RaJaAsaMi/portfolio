@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/wordpress.css">
+    <link rel="stylesheet" href="./style/seo.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./index.html">
+    <title>SEO Services</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html#home" style="--i:1">Home</a>
+            <a href="index.html#about" style="--i:2">About</a>
+            <a href="index.html#services" style="--i:3" class="active">Services</a>
+            <a href="index.html#skills" style="--i:4">Skills</a>
+            <a href="index.html#projects" style="--i:5">Projects</a>
+            <a href="index.html#contact" style="--i:6">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <div class="cross" id="cross">&#10006;</div>
+    </header>
+
+    <section class="wordpress-service-detail" id="seo-detail">
+        <div class="container">
+            <h1 class="service-title">SEO Services</h1>
+            <p class="service-description">
+                Enhance your online visibility and drive traffic with our professional SEO services tailored to your business needs.
+            </p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h2 class="card-title">Keyword Research</h2>
+                    <p>We identify the best keywords to target your audience and boost your search engine rankings.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">On-Page Optimization</h2>
+                    <p>Our team optimizes your website's content and structure to improve search engine visibility.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">Technical SEO</h2>
+                    <p>We ensure your website meets technical standards to enhance crawlability and user experience.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">Link Building</h2>
+                    <p>Our link-building strategies enhance your site's authority and improve search rankings.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">SEO Audits</h2>
+                    <p>We conduct comprehensive audits to identify opportunities for improvement in your SEO strategy.</p>
+                </div>
+            </div>
+            <h2 class="why-choose-us-title">Why Choose Us?</h2>
+            <ul class="why-choose-us-list">
+                <li>✔ Experienced SEO Specialists</li>
+                <li>✔ Proven Strategies</li>
+                <li>✔ Data-Driven Approach</li>
+                <li>✔ Transparent Reporting</li>
+                <li>✔ Continuous Improvement</li>
+            </ul>
+            <h2 class="client-testimonials-title">Client Testimonials</h2>
+            <div class="testimonial">
+                <p>"Their SEO services significantly increased our website traffic and improved our search rankings!" - Satisfied Client</p>
+            </div>
+            <h2 class="call-to-action-title">Get Started Today!</h2>
+            <p>Ready to enhance your online presence? Contact us today to discuss your SEO needs.</p>
+            <div class="call-to-action">
+                <a href="index.html#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>© <span id="year"></span> Sami Ullah. All Rights Reserved.</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

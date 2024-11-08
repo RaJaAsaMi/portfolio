@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/wordpress.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>MERN Stack Development Services</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html#home" style="--i:1" class="active">Home</a>
+            <a href="index.html#about" style="--i:2">About</a>
+            <a href="index.html#services" style="--i:3">Services</a>
+            <a href="index.html#skills" style="--i:4">Skills</a>
+            <a href="index.html#projects" style="--i:5">Projects</a>
+            <a href="index.html#contact" style="--i:6">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <div class="cross" id="cross">&#10006;</div>
+    </header>
+
+    <section class="wordpress-service-detail" id="mern-detail">
+        <div class="container">
+            <h1 class="service-title">MERN Stack Development Services</h1>
+            <p class="service-description">
+                Build powerful and scalable applications with our MERN stack development services, tailored to your business needs.
+            </p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h2 class="card-title">Custom Application Development</h2>
+                    <p>We create custom applications that meet your specific requirements and enhance user experience.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">API Development</h2>
+                    <p>Our team develops robust APIs for seamless integration and data management across platforms.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">Database Management</h2>
+                    <p>We implement effective database solutions that ensure data integrity and availability.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">Performance Optimization</h2>
+                    <p>We optimize applications for performance to provide a fast and responsive user experience.</p>
+                </div>
+                <div class="service-card">
+                    <h2 class="card-title">Ongoing Support</h2>
+                    <p>Our support team is here to assist you with any issues and ensure your application runs smoothly.</p>
+                </div>
+            </div>
+            <h2 class="why-choose-us-title">Why Choose Us?</h2>
+            <ul class="why-choose-us-list">
+                <li>✔ Experienced Developers</li>
+                <li>✔ Agile Methodology</li>
+                <li>✔ Quality Assurance</li>
+                <li>✔ Transparent Pricing</li>
+                <li>✔ Timely Delivery</li>
+            </ul>
+            <h2 class="client-testimonials-title">Client Testimonials</h2>
+            <div class="testimonial">
+                <p>"Their expertise in MERN stack development transformed our idea into a robust application!" - Happy Client</p>
+            </div>
+            <h2 class="call-to-action-title">Get Started Today!</h2>
+            <p>Ready to elevate your digital presence? Contact us today to discuss your MERN stack development needs.</p>
+            <div class="call-to-action">
+                <a href="index.html#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>© <span id="year"></span> Sami Ullah. All Rights Reserved.</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
